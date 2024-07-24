@@ -1,0 +1,27 @@
+
+
+
+// Variables
+$primary-color: white;
+$title-size: 20px;
+$subtitle-weight: 400;
+
+
+// mixins
+@mixin title {
+    font-size: $title-size;
+    font-weight: $subtitle-weight;
+    color: $primary-color;
+    background-color: black;
+}
+
+
+// include
+
+h3 {
+    @include title;
+}
+
+h5 {
+    font-weight: $subtitle-weight;
+}
