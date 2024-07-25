@@ -7,10 +7,10 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 95%;
     align-items: center;
-    border: 1px solid red;
+ /*    border: 1px solid red; */
 }
 
 .input{
@@ -28,10 +28,10 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 95%;
     align-items: center;
-    border: 1px solid red;
+   /*  border: 1px solid red; */
 }
 
 .form__container_checkbox {
@@ -41,8 +41,8 @@
     gap: 1rem;
     align-items: center;
     height: 40px;
-    border-radius: 5px;
-    border: 1px solid $borde-color;
+    border-radius: 2rem;
+    /* border: 1px solid $borde-color; */
     font-family: $fuentePrincipal;
     font-size: 1.8rem;
     
@@ -59,10 +59,22 @@
     font-family: $fuentePrincipal;
     font-size: 1.8rem;
     text-decoration: none;
+    color: $texto-color;
 }
 
 .form__link a{
     text-decoration: none;
     color: $texto-color;
+}
+
+
+.form__footer-text {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    height: 40px;
+    font-family: $fuentePrincipal;
+    font-size: 1.8rem;
 }
 
