@@ -1,4 +1,4 @@
-$borde-color: #CCCCCC;
+$borde-color: #888383;
 $texto-color: #171717;
 $fondo-color: #FFFFFF;
 
@@ -20,22 +20,16 @@ $primary-color: white;
 $title-size: 20px;
 $subtitle-weight: 400;
 
-
+ 
 // mixins
 @mixin title {
-    font-size: $title-size;
-    font-weight: $subtitle-weight;
-    color: $primary-color;
-    background-color: black;
+   margin: 0;
 }
 
 
 // include
 
-h3 {
+h1, h2, h3, h4, h5, h6  {
     @include title;
 }
 
-h5 {
-    font-weight: $subtitle-weight;
-}
