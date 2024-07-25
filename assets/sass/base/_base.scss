@@ -1,24 +1,5 @@
+@use '../base/typography';
 
-
-/* Variables globales */
-:root {
-    --borde-color: #CCCCCC;
-    --texto-color: #171717;
-    --fondo-color: #FFFFFF;
-
-    --color-html : #E93E30;
-    --color-css : #299ED5;
-    --color-js : #F7E018;
-    --color-bootstrap : #563D7C;
-    --color-vue : #67C770;
-    --color-react : #292C33;
-
-    
-    --font-regular: 400;
-    --font-medium: 500;
-    --font-bold: 700;
-    --fuentePrincipal : 'Poppins', sans-serif;
-}
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -26,7 +7,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 62.5%; /* 1rem = 10px */
-    font-family: var(--fuentePrincipal);
+    font-family: typography.$fuentePrincipal;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -35,13 +16,13 @@ html {
 
 /* Globales */
 body {
-    background-color: var(--fondo-color);
+    background-color: typography.$fondo-color;
 }
 
 
   a {
     text-decoration: none;
-    color: var(--texto-color);
+    color: typography.$texto-color;
   }
 
 
